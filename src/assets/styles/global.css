@@ -1,0 +1,29 @@
+:root {
+  font-size: 60%;
+
+  --color-background-primary: #137547;
+  --color-background-secundary: #F0FFF4;
+  --color-background-form: #F8F9FA;
+  --color-title-white: #FFFFFF;
+  --color-text-light: #F8F9FA;
+  --color-text-dark: #6C757D;
+  --color-fieldset-form: #6C757D;
+  --color-highlight: #FF6D00;
+  --color-highlight-dark: #ff5400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--color-background-primary)
+}
+
+@media (min-width: 700px) {
+    :root {
+        font-size: 62.5%;
+    }
+}
