@@ -6,10 +6,12 @@
   --color-background-form: #F8F9FA;
   --color-title-white: #FFFFFF;
   --color-text-light: #F8F9FA;
+  --color-text-hover: #E9ECEF;
   --color-text-dark: #6C757D;
+  --color-text-dark-hover: #495057;
   --color-fieldset-form: #6C757D;
   --color-highlight: #FF6D00;
-  --color-highlight-dark: #ff5400;
+  --color-highlight-dark: #ff4800;
 }
 
 * {
