@@ -19,14 +19,15 @@ const Header = () => {
             <a href="#find-pets">Procurar pets</a>
           </li>
           <li>
-            <Link to="/sign-in" className="sign-in">Entrar</Link>
+            <Link to="sign-in" className="sign-in">Entrar</Link>
           </li>
           <li>
-            <Link to="/sign-up" className="sign-up">Cadastre-se</Link>
+            <Link to="sign-up" className="sign-up">Cadastre-se</Link>
           </li>
         </ul>
       </nav>
     </header>
+
   );
 };
 
