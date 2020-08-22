@@ -1,0 +1,47 @@
+form {
+  width: 70rem;
+  height: 32rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--color-background-form);
+  border-radius: 0.8rem;
+  box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+form div {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(2, 50%);
+  margin-top: 3rem;
+}
+
+form div fieldset {
+  border: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+form div fieldset {
+  margin-top: 1.5rem;
+  margin-right: 4rem;
+}
+
+form button {
+  width: 24rem;
+  height: 6rem;
+  border-radius: 0.8rem;
+  border: none;
+  margin-top: 4.5rem;
+  font: 600 2.8rem Montserrat;
+  color: var(--color-title-white);
+  background-color: var(--color-highlight);
+  cursor: pointer;
+}
+
+form button:hover,
+form button:focus {
+  background-color: var(--color-highlight-dark);
+  transition: 300ms;
+  outline: none;
+}
