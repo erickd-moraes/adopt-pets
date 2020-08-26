@@ -14,6 +14,7 @@ form div {
   grid-template-columns: repeat(2, 50%);
   grid-template-rows: repeat(2, 50%);
   margin-top: 3rem;
+  margin-left: 3.5rem;
 }
 
 form div fieldset {
@@ -37,11 +38,11 @@ form button {
   color: var(--color-title-white);
   background-color: var(--color-highlight);
   cursor: pointer;
+  outline: none;
 }
 
 form button:hover,
 form button:focus {
   background-color: var(--color-highlight-dark);
   transition: 300ms;
-  outline: none;
 }

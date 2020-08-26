@@ -4,7 +4,10 @@ import Logo from '../../assets/images/logo.svg';
 
 import './styles.css';
 
-const Header = () => {
+const Header = (props) => {
+
+
+
   return (
     <header>
       <Link to="/">
