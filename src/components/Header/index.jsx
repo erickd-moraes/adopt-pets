@@ -1,17 +1,30 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link }  from 'react-router-dom';
-import Logo from '../../assets/images/logo.svg';
 
 import './styles.css';
 
-const Header = (props) => {
+const Header = () => {
 
+  const [header, setHeader] = useState('header');
 
+  const handleScroll = () => {
+    if (window.scrollY > 32) {
+      return setHeader('headerLight');
+    }
+    return setHeader('headerDefault');
+  }
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+
+    return () =>
+      window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   return (
-    <header>
+    <header className={header}>
       <Link to="/">
-        <img src={Logo} alt="Logo Adopt Pets"/>
+        <div className="logo"></div>
       </Link>
       <nav className="menu">
         <ul>
@@ -22,15 +35,14 @@ const Header = (props) => {
             <a href="#find-pets">Procurar pets</a>
           </li>
           <li>
-            <Link to="sign-in" className="sign-in">Entrar</Link>
+            <Link to="/sign-in" className="sign-in">Entrar</Link>
           </li>
           <li>
-            <Link to="sign-up" className="sign-up">Cadastre-se</Link>
+            <Link to="/sign-up" className="sign-up">Cadastre-se</Link>
           </li>
         </ul>
       </nav>
     </header>
-
   );
 };
 

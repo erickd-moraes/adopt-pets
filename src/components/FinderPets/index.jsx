@@ -24,7 +24,7 @@ const FinderPets = () => {
         <div className="information">
           <p>
             Caso queira divulgar um pet para doação, pedimos uma coisa:
-            <Link to="sign-in" className="highlight"> Cadastre-se!</Link>
+            <Link to="/sign-in" className="highlight"> Cadastre-se!</Link>
           </p>
           <p>
             <strong className="highlight">Por que essa condição?</strong> Olha,

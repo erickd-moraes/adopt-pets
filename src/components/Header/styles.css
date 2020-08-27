@@ -1,14 +1,18 @@
-header {
+header.headerDefault {
+  position: fixed;
   width: 100%;
-  height: 10rem;
+  height: 9rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: var(--color-background-primary);
 }
 
-header img {
+header div.logo {
+  width: 23rem;
+  height: 5.5rem;
   margin-left: 3rem;
+  background-image: url('../../assets/images/logo.svg');
 }
 
 header > a:focus {
@@ -68,4 +72,50 @@ header ul li a.sign-up:hover,
 header ul li a.sign-up:focus {
   color: var(--color-text-light);
   background-color: var(--color-highlight-dark);
+}
+
+/* ========================================================================= */
+
+header.headerLight {
+  position: fixed;
+  width: 100%;
+  height: 9rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-text-light);
+  transition: 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+  box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+header.headerLight div.logo {
+  background-image: url('../../assets/images/logo-light.svg');
+}
+
+header.headerLight ul li a {
+  color: var(--color-text-dark);
+}
+
+header.headerLight ul li a:hover,
+header.headerLight ul li a:focus {
+  color: var(--color-highlight);
+}
+
+header.headerLight ul li a.sign-in {
+  font-weight: 500;
+  padding: 1.6rem 2.1rem;
+  border-radius: 0.8rem;
+  margin-right: 2rem;
+  background-color: var(--color-background-primary);
+  color: var(--color-title-white);
+}
+
+header.headerLight ul li a.sign-in:hover,
+header.headerLight ul li a.sign-in:focus {
+  color: var(--color-title-white);
+  background-color: var(--color-background-primary-dark);
+}
+
+header.headerLight ul li a.sign-up {
+  color: var(--color-title-white);
 }

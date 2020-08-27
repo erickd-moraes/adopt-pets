@@ -5,8 +5,11 @@ import './styles.css';
 
 const SignIn = () => {
   return (
-    <div>
+    <div id="signin-page">
       <Header />
+      <main>
+        <div><h1>AAAAAAAAAAAAAAAAAAAAAAAAAAA</h1></div>
+      </main>
     </div>
   );
 };
