@@ -1,3 +1,102 @@
-header {
-  width: 100%;
+#signin-page main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#signin-page main img {
+  margin-left: 12rem;
+  margin-top: 9rem;
+  width: 54rem;
+}
+
+#signin-page main div.authentication {
+  margin-top: 13rem;
+  margin-right: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 35rem;
+  height: 45rem;
+  border-radius: 0.8rem;
+  background-color: var(--color-background-form);
+  box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.25);
+}
+
+#signin-page main div.authentication div {
+  width: 22rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#signin-page main div.authentication div h1 {
+  font: 600 2.4rem Montserrat;
+  line-height: 3.2rem;
+  color: var(--color-text-dark);
+}
+
+#signin-page main div.authentication div p {
+  font: 500 1.4rem Montserrat;
+  line-height: 1.6rem;
+  color: var(--color-text-dark);
+}
+
+#signin-page main div.authentication form {
+  width: 24rem;
+  height: 27rem;
+  box-shadow: none;
+  margin-top: 3rem;
+}
+
+#signin-page main div.authentication form fieldset {
+  border: none;
+  display: flex;
+}
+#signin-page main div.authentication form fieldset label {
+  margin-top: 1.5rem;
+}
+
+#signin-page main div.authentication form fieldset input {
+  width: 24rem;
+}
+
+#signin-page main div.authentication form button {
+  width: 22rem;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+#signin-page main div.authentication a {
+  font: 500 1.4rem Montserrat;
+  line-height: 1.6rem;
+  color: var(--color-text-dark);
+  text-decoration: none;
+}
+
+#signin-page main div.authentication a:hover,
+#signin-page main div.authentication a:focus {
+  color: var(--color-text-dark-hover);
+  outline: none;
+  text-decoration: solid underline var(--color-text-dark-hover);
+  transition: 300ms;
+}
+
+#signin-page main div.authentication a + a {
+  margin-top: 1.5rem;
+}
+
+#signin-page main div.authentication a.highlight {
+  color: var(--color-highlight);
+}
+
+#signin-page main div.authentication a.highlight:hover,
+#signin-page main div.authentication a.highlight:focus {
+  color: var(--color-highlight-dark);
+  outline: none;
+  text-decoration: solid underline var(--color-highlight-dark);
+  transition: 300ms;
 }

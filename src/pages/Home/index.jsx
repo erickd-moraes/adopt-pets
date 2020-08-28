@@ -11,12 +11,13 @@ import Footer from '../../components/Footer';
 import './styles.css';
 
 const Home = () => {
+
   return (
     <div id="home-page">
       <Header/>
 
       <main>
-      <section className="about">
+      <section id="about">
           <div>
             <h1>Sobre a iniciativa</h1>
             <p>
@@ -34,7 +35,7 @@ const Home = () => {
           <img src={ImageAbout} alt="Sobre a iniciativa"/>
         </section>
 
-        <section className="find-pets">
+        <section id="find-pets">
           <img src={ImageFindPets} alt="Procurar pets"/>
 
           <div>

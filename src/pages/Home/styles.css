@@ -1,4 +1,4 @@
-#home-page main section.about {
+#home-page main section#about {
   width: 100%;
   height: 70rem;
   display: flex;
@@ -6,7 +6,7 @@
   align-items: center;
 }
 
-#home-page main section.about div {
+#home-page main section#about div {
   width: 53rem;
   height: 40rem;
   display: flex;
@@ -16,14 +16,14 @@
   margin-top: 8rem;
 }
 
-#home-page main section.about div h1 {
+#home-page main section#about div h1 {
   width: 100%;
   text-align: center;
   font: 300 5.5rem Ubuntu;
   color: var(--color-title-white);
 }
 
-#home-page main section.about div p {
+#home-page main section#about div p {
   width: 100%;
   margin-top: 3rem;
   font: 300 1.6rem Montserrat;
@@ -31,25 +31,25 @@
   color: var(--color-text-light);
 }
 
-#home-page main section.about div p + p {
+#home-page main section#about div p + p {
   margin-top: 1rem;
 }
 
-#home-page main section.about div p strong {
+#home-page main section#about div p strong {
   font-weight: 500;
 }
 
-#home-page main section.about div p strong.highlight {
+#home-page main section#about div p strong.highlight {
   color: var(--color-highlight);
 }
 
-#home-page main section.about img {
+#home-page main section#about img {
   margin-right: 7rem;
   margin-bottom: 7rem;
   margin-top: 8rem;
 }
 
-#home-page main section.find-pets {
+#home-page main section#find-pets {
   width: 100%;
   height: 85rem;
   background-color: var(--color-background-secundary);
@@ -58,12 +58,12 @@
   align-items: center;
 }
 
-#home-page main section.find-pets > img {
+#home-page main section#find-pets > img {
   margin-left: 5rem;
   margin-top: 13rem;
 }
 
-#home-page main section.find-pets > div {
+#home-page main section#find-pets > div {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -71,7 +71,7 @@
   margin-right: 10rem;
 }
 
-#home-page main section.find-pets > div .header {
+#home-page main section#find-pets > div .header {
   width: 48.5rem;
   margin-bottom: 5rem;
   display: flex;
@@ -79,50 +79,50 @@
   align-items: center;
 }
 
-#home-page main section.find-pets > div .header div {
+#home-page main section#find-pets > div .header div {
   display: flex;
   flex-direction: column;
 }
 
-#home-page main section.find-pets > div .header div h1 {
+#home-page main section#find-pets > div .header div h1 {
   text-align: center;
   font: 300 5.5rem Ubuntu;
   color: var(--color-background-primary);
 }
 
-#home-page main section.find-pets > div .header div p {
+#home-page main section#find-pets > div .header div p {
   font: 400 1.8rem Montserrat;
   color: var(--color-background-primary);
   margin-top: 1rem;
 }
 
-#home-page main section.find-pets > div .information {
+#home-page main section#find-pets > div .information {
   margin-top: 4.5rem;
   width: 64rem;
 }
 
-#home-page main section.find-pets > div .information p {
+#home-page main section#find-pets > div .information p {
   font: 400 1.6rem Montserrat;
   color: var(--color-fieldset-form);
   line-height: 3rem;
 }
 
-#home-page main section.find-pets > div .information p + p {
+#home-page main section#find-pets > div .information p + p {
   margin-top: 2.5rem;
 }
 
-#home-page main section.find-pets > div .information strong {
+#home-page main section#find-pets > div .information strong {
   color: var(--color-highlight);
 }
 
-#home-page main section.find-pets > div .information a {
+#home-page main section#find-pets > div .information a {
   text-decoration: none;
   font-weight: 600;
   color: var(--color-highlight);
 }
 
-#home-page main section.find-pets > div .information a:hover,
-#home-page main section.find-pets > div .information a:focus {
+#home-page main section#find-pets > div .information a:hover,
+#home-page main section#find-pets > div .information a:focus {
   color: var(--color-highlight-dark);
   transition: 300ms;
 }
