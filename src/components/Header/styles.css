@@ -1,4 +1,4 @@
-header.headerDefault {
+header {
   position: fixed;
   width: 100%;
   height: 9rem;
@@ -74,8 +74,6 @@ header ul li a.sign-up:focus {
   background-color: var(--color-highlight-dark);
 }
 
-/* ========================================================================= */
-
 header.headerLight {
   position: fixed;
   width: 100%;
@@ -89,16 +87,41 @@ header.headerLight {
 }
 
 header.headerLight div.logo {
+  width: 23rem;
+  height: 5.5rem;
+  margin-left: 3rem;
   background-image: url('../../assets/images/logo-light.svg');
 }
 
+header.headerLight > a:focus {
+  outline: none;
+}
+
+header.headerLight nav {
+  display: flex;
+  width: 52rem;
+  height: 5rem;
+}
+
+header.headerLight nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 header.headerLight ul li a {
+  text-decoration: none;
+  font: 400 1.6rem Ubuntu;
   color: var(--color-text-dark);
+  margin-right: 3rem;
 }
 
 header.headerLight ul li a:hover,
 header.headerLight ul li a:focus {
   color: var(--color-highlight);
+  transition: 300ms;
+  outline: none;
 }
 
 header.headerLight ul li a.sign-in {
@@ -117,5 +140,14 @@ header.headerLight ul li a.sign-in:focus {
 }
 
 header.headerLight ul li a.sign-up {
+  font-weight: 500;
+  padding: 1.6rem 0.6rem;
+  border-radius: 0.8rem;
+  background-color: var(--color-highlight);
   color: var(--color-title-white);
+}
+
+header.headerLight ul li a.sign-up:hover,
+header.headerLight ul li a.sign-up:focus {
+  background-color: var(--color-highlight-dark);
 }
