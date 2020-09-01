@@ -5,6 +5,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
   background-color: var(--color-background-primary);
 }
 
@@ -22,6 +23,12 @@ header > a:focus {
 header nav {
   display: flex;
   width: 52rem;
+  height: 5rem;
+}
+
+header nav.menu-authentication {
+  display: flex;
+  width: 24rem;
   height: 5rem;
 }
 
@@ -82,7 +89,7 @@ header.headerLight {
   justify-content: space-between;
   align-items: center;
   background-color: var(--color-text-light);
-  transition: 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
   box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.25);
 }
 
@@ -100,6 +107,12 @@ header.headerLight > a:focus {
 header.headerLight nav {
   display: flex;
   width: 52rem;
+  height: 5rem;
+}
+
+header.headerLight nav.menu-authentication {
+  display: flex;
+  width: 24rem;
   height: 5rem;
 }
 

@@ -4,6 +4,7 @@ import Select from '../../components/Select';
 import SelectUfCity from '../SelectUfCity';
 
 import './styles.css';
+import './responsive.css';
 
 const FormFinderPets = () => {
   const [species, setSpecies] = useState('');

@@ -1,0 +1,265 @@
+@media (min-width: 1500px) {
+  #home-page main section#about {
+    height: 80rem;
+  }
+
+  #home-page main section#about div {
+    margin-left: 12rem;
+    margin-top: 2rem;
+  }
+
+  #home-page main section#about div h1 {
+    font-size: 6.5rem;
+  }
+
+  #home-page main section#about div p {
+    font-size: 1.8rem;
+  }
+
+  #home-page main section#about img {
+    margin-right: 12rem;
+    width: 60rem;
+  }
+
+  #home-page main section#find-pets > img {
+    width: 55rem;
+    margin-top: 10rem;
+  }
+
+  #home-page main section#find-pets > div .header {
+    width: 52rem;
+  }
+
+  #home-page main section#find-pets > div .header div h1 {
+    font-size: 6.5rem;
+  }
+
+  #home-page main section#find-pets > div .header div p {
+    font-size: 2rem;
+  }
+
+  #home-page main section#find-pets > div .information {
+    width: 77rem;
+  }
+
+  #home-page main section#find-pets > div .information p {
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 1850px) {
+  #home-page main section#about {
+    height: 85rem;
+  }
+
+  #home-page main section#about div {
+    margin-left: 12rem;
+    margin-top: 2rem;
+  }
+
+  #home-page main section#about div {
+    width: 60rem;
+  }
+
+  #home-page main section#about div h1 {
+    font-size: 7rem;
+  }
+
+  #home-page main section#about div p {
+    font-size: 2rem;
+    margin-left: 4rem;
+  }
+
+  #home-page main section#about img {
+    margin-right: 12rem;
+    width: 65rem;
+  }
+
+  #home-page main section#find-pets > img {
+    width: 60rem;
+    margin-top: 0;
+    margin-left: 15rem;
+  }
+
+  #home-page main section#find-pets > div .header {
+    width: 58rem;
+  }
+
+  #home-page main section#find-pets > div .header div h1 {
+    font-size: 7rem;
+  }
+
+  #home-page main section#find-pets > div .header div p {
+    font-size: 2.2rem;
+  }
+
+  #home-page main section#find-pets > div .information {
+    width: 77rem;
+  }
+
+  #home-page main section#find-pets > div .information p {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 1235px) {
+  #home-page main section#find-pets {
+    justify-content: center;
+  }
+
+  #home-page main section#find-pets > img {
+    display: none;
+  }
+
+  #home-page main section#find-pets > div {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 1170px) {
+  #home-page main section#about div {
+    margin-left: 3.5rem;
+    transition: 300ms;
+  }
+
+  #home-page main section#about img {
+    margin-right: 3.5rem;
+    transition: 300ms;
+  }
+}
+
+@media (max-width: 1100px) {
+  #home-page main section#about {
+    justify-content: center;
+  }
+
+  #home-page main section#about div {
+    margin-left: 0;
+  }
+
+  #home-page main section#about img {
+    display: none;
+  }
+
+  @media (max-width: 740px) {
+    #home-page main section#about {
+      height: 60rem;
+    }
+
+    #home-page main section#find-pets {
+      height: 103rem;
+    }
+  }
+
+  @media (max-width: 640px) {
+    #home-page main section#find-pets > div .information {
+      width: 54rem;
+    }
+  }
+
+  @media (max-width: 550px) {
+    #home-page main section#about div {
+      margin-top: 5rem;
+    }
+
+    #home-page main section#about div h1 {
+      font-size: 5rem;
+      width: 44rem;
+    }
+
+    #home-page main section#about div p {
+      font-size: 1.4rem;
+      margin-left: 4.5rem;
+      width: 44rem;
+    }
+
+    #home-page main section#find-pets > div .header div h1 {
+      font-size: 5rem;
+    }
+
+    #home-page main section#find-pets > div .header div p {
+      font-size: 1.6rem;
+    }
+
+    #home-page main section#find-pets > div .header img {
+      width: 7.6rem;
+    }
+
+    #home-page main section#find-pets > div .information {
+      width: 44rem;
+    }
+
+    #home-page main section#find-pets > div .information p {
+      font-size: 1.4rem;
+    }
+  }
+
+  @media (max-width: 470px) {
+    #home-page main section#about div {
+      width: 35rem;
+      margin-left: 0;
+    }
+
+    #home-page main section#about div h1 {
+      font-size: 4rem;
+      width: 35rem;
+    }
+
+    #home-page main section#about div p {
+      text-align: center;
+      width: 35rem;
+      margin-left: 0;
+    }
+
+    #home-page main section#find-pets {
+      height: 95rem;
+    }
+
+    #home-page main section#find-pets > div .header {
+      width: 30rem;
+      margin-bottom: 3rem;
+    }
+
+    #home-page main section#find-pets > div .header div h1 {
+      font-size: 4rem;
+    }
+
+    #home-page main section#find-pets > div .header div p {
+      font-size: 1.4rem;
+      margin-left: 3.8rem;
+      margin-top: 0;
+      width: 20rem;
+      text-align: center;
+    }
+
+    #home-page main section#find-pets > div .header img {
+      width: 3rem;
+      margin-bottom: 3rem;
+      margin-left: 1rem;
+    }
+
+    #home-page main section#find-pets > div .information {
+      width: 35rem;
+    }
+  }
+
+  @media (max-width: 400px) {
+    #home-page main section#about div {
+      width: 30rem;
+    }
+
+    #home-page main section#about div h1 {
+      width: 30rem;
+    }
+
+    #home-page main section#about div p {
+      width: 30rem;
+    }
+  }
+
+  @media (max-width: 350px) {
+    #home-page main section#find-pets > div .information {
+      width: 32rem;
+    }
+  }
+}

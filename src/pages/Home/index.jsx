@@ -9,6 +9,7 @@ import FormFinderPets from '../../components/FormFinderPets';
 import Footer from '../../components/Footer';
 
 import './styles.css';
+import './responsive.css';
 
 const Home = () => {
 

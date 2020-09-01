@@ -1,5 +1,6 @@
 :root {
   font-size: 60%;
+  transition: 300ms;
 
   --color-background-primary: #137547;
   --color-background-primary-dark: #0c6d40;
@@ -32,5 +33,6 @@ body {
 @media (min-width: 700px) {
     :root {
         font-size: 62.5%;
+        transition: 300ms;
     }
 }

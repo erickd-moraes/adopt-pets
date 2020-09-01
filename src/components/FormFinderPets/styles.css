@@ -39,6 +39,7 @@ form button {
   background-color: var(--color-highlight);
   cursor: pointer;
   outline: none;
+  transition: 300ms;
 }
 
 form button:hover,

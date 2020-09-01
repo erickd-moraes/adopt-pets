@@ -14,6 +14,7 @@
   align-items: center;
   margin-left: 7rem;
   margin-top: 8rem;
+  transition: 300ms;
 }
 
 #home-page main section#about div h1 {
@@ -47,6 +48,7 @@
   margin-right: 7rem;
   margin-bottom: 7rem;
   margin-top: 8rem;
+  transition: 300ms;
 }
 
 #home-page main section#find-pets {
@@ -105,10 +107,12 @@
   font: 400 1.6rem Montserrat;
   color: var(--color-fieldset-form);
   line-height: 3rem;
+  text-align: center;
 }
 
 #home-page main section#find-pets > div .information p + p {
   margin-top: 2.5rem;
+  text-align: center;
 }
 
 #home-page main section#find-pets > div .information strong {

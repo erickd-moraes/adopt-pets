@@ -1,0 +1,32 @@
+@media (min-width: 1500px) {
+  footer {
+    height: 9rem;
+  }
+
+  footer div > img {
+    width: 20rem;
+    height: 6rem;
+  }
+
+  footer nav ul li a img {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+}
+
+@media (max-width: 550px) {
+  footer {
+    height: 13rem;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  footer div > img {
+    margin-left: 0;
+    margin-bottom: 2rem;
+  }
+
+  footer nav {
+    margin-right: 0;
+  }
+}

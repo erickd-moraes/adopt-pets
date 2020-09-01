@@ -1,0 +1,113 @@
+@media (min-width: 1500px) {
+  header nav {
+    width: 57rem;
+  }
+
+  header ul li a  {
+    font-size: 1.8rem;
+  }
+
+  header.headerLight nav {
+    width: 57rem;
+  }
+
+  header.headerLight ul li a  {
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 1850px) {
+  header nav {
+    width: 62rem;
+  }
+
+  header ul li a  {
+    font-size: 2rem;
+  }
+
+  header.headerLight nav {
+    width: 62rem;
+  }
+
+  header.headerLight ul li a  {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 851px) {
+  header nav.menu-authentication {
+    display: none;
+  }
+
+  header.headerLight nav.menu-authentication {
+    display: none;
+  }
+}
+
+@media (max-width: 850px) {
+  header nav.menu {
+    display: none;
+  }
+
+  header.headerLight nav.menu {
+    display: none;
+  }
+}
+
+@media (max-width: 550px) {
+  header {
+    height: 7rem;
+  }
+
+  header div.logo {
+    width: 18.5rem;
+    height: 5rem;
+    margin-left: 2rem;
+    background-image: url('../../assets/images/logo-small.svg');
+  }
+
+  header nav.menu-authentication {
+    width: 18rem;
+  }
+
+  header ul li a {
+    font: 400 1.2rem Ubuntu;
+    margin-right: 0rem;
+  }
+
+  header ul li a.sign-in {
+    padding: 1rem 1.4rem;
+  }
+
+  header ul li a.sign-up {
+    padding: 1.1rem 0.6rem;
+  }
+
+  header.headerLight {
+    height: 7rem;
+  }
+
+  header.headerLight div.logo {
+    width: 18.5rem;
+    height: 5rem;
+    margin-left: 2rem;
+    background-image: url('../../assets/images/logo-light-small.svg');
+  }
+
+  header.headerLight nav.menu-authentication {
+    width: 18rem;
+  }
+
+  header.headerLight ul li a {
+    font: 400 1.2rem Ubuntu;
+    margin-right: 0rem;
+  }
+
+  header.headerLight ul li a.sign-in {
+    padding: 1rem 1.4rem;
+  }
+
+  header.headerLight ul li a.sign-up {
+    padding: 1.1rem 0.6rem;
+  }
+}

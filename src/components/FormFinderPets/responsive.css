@@ -1,0 +1,129 @@
+@media (min-width: 1500px) {
+  form {
+    width: 80rem;
+    transition: 300ms;
+  }
+
+  form div fieldset select {
+    width: 33rem;
+    font-size: 1.6rem;
+    transition: 300ms;
+  }
+
+  form div fieldset label {
+    font-size: 1.6rem;
+  }
+}
+
+@media (min-width: 1850px) {
+  form {
+    width: 85rem;
+    height: 37rem;
+    transition: 300ms;
+  }
+
+  form div {
+    margin-top: 4rem;
+  }
+
+  form div fieldset {
+    margin-top: 2rem;
+  }
+
+  form div fieldset select {
+    width: 37rem;
+    font-size: 1.8rem;
+    transition: 300ms;
+  }
+
+  form div fieldset label {
+    font-size: 1.8rem;
+  }
+
+  form button {
+    margin-top: 5.5rem;
+  }
+}
+
+@media (max-width: 740px) {
+  form {
+    width: 60rem;
+    height: 50rem;
+    transition: 300ms;
+  }
+
+  form div fieldset select {
+    width: 50rem;
+    transition: 300ms;
+  }
+
+  form div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media (max-width: 640px) {
+    form {
+      width: 50rem;
+      transition: 300ms;
+    }
+
+    form div fieldset select {
+      width: 40rem;
+      transition: 300ms;
+    }
+  }
+
+  @media (max-width: 550px) {
+    form {
+      width: 45rem;
+      transition: 300ms;
+    }
+
+    form div fieldset select {
+      width: 35rem;
+      transition: 300ms;
+    }
+  }
+
+  @media (max-width: 470px) {
+    form {
+      width: 40rem;
+      transition: 300ms;
+    }
+
+    form div fieldset select {
+      width: 30rem;
+      transition: 300ms;
+    }
+  }
+
+  @media (max-width: 400px) {
+    form {
+      width: 35rem;
+      transition: 300ms;
+    }
+
+    form div fieldset select {
+      width: 25rem;
+      transition: 300ms;
+    }
+
+    form button {
+      width: 18rem;
+      transition: 300ms;
+    }
+  }
+
+  @media (max-width: 350px) {
+    form {
+      width: 30rem;
+      transition: 300ms;
+    }
+
+    form div fieldset select {
+      width: 20rem;
+      transition: 300ms;
+    }
+  }
+}

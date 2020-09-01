@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link }  from 'react-router-dom';
 
 import './styles.css';
+import './responsive.css';
 
 const Header = () => {
 
@@ -34,6 +35,17 @@ const Header = () => {
           <li>
             <a href="#find-pets">Procurar pets</a>
           </li>
+          <li>
+            <Link to="/sign-in" className="sign-in">Entrar</Link>
+          </li>
+          <li>
+            <Link to="/sign-up" className="sign-up">Cadastre-se</Link>
+          </li>
+        </ul>
+      </nav>
+
+      <nav className="menu-authentication">
+        <ul>
           <li>
             <Link to="/sign-in" className="sign-in">Entrar</Link>
           </li>

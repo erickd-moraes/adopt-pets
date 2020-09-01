@@ -8,6 +8,7 @@ import iconFacebook from '../../assets/images/icon-facebook.svg';
 import iconInstagram from '../../assets/images/icon-instagram.svg';
 
 import './styles.css';
+import './responsive.css';
 
 const Footer = () => {
   return (
