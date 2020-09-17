@@ -30,10 +30,10 @@ const Header = () => {
       <nav className="menu">
         <ul>
           <li>
-            <a href="#about">Sobre a iniciativa</a>
+            <a href="#about" className="toggle">Sobre a iniciativa</a>
           </li>
           <li>
-            <a href="#find-pets">Procurar pets</a>
+            <a href="#find-pets" className="toggle">Procurar pets</a>
           </li>
           <li>
             <Link to="/sign-in" className="sign-in">Entrar</Link>

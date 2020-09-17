@@ -1,3 +1,8 @@
+#signin-page header nav ul li a.toggle {
+  visibility: hidden;
+}
+
+
 #signin-page main {
   display: flex;
   align-items: center;
@@ -6,7 +11,7 @@
 
 #signin-page main img {
   margin-left: 12rem;
-  margin-top: 9rem;
+  margin-top: 10rem;
   width: 54rem;
 }
 
@@ -55,6 +60,7 @@
 #signin-page main div.authentication form fieldset {
   border: none;
   display: flex;
+  flex-direction: column;
 }
 #signin-page main div.authentication form fieldset label {
   margin-top: 1.5rem;

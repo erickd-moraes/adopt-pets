@@ -1,0 +1,68 @@
+#signup-page header nav ul li a.toggle {
+  visibility: hidden;
+}
+
+#signup-page main section.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 35rem;
+}
+
+#signup-page main section.title h1 {
+  font: 500 2.4rem Montserrat;
+  color: var(--color-title-white);
+  margin-top: 5rem;
+}
+
+#signup-page main section.title span {
+  width: 3rem;
+  height: 3rem;
+  margin-left: 0.8rem;
+  background: url('../../assets/images/pet-paw-dog.svg') no-repeat;
+  margin-top: 5rem;
+}
+
+#signup-page main section.create-user {
+  width: 100%;
+  height: 75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-background-secundary);
+}
+
+#signup-page main section.create-user form {
+  width: 70rem;
+  height: 80rem;
+  margin-top: -18rem;
+
+}
+
+#signup-page main section.create-user form fieldset {
+  margin-bottom: 2rem;
+}
+
+#signup-page main section.create-user form fieldset:first-of-type {
+  margin-top: 4rem;
+}
+
+#signup-page main section.create-user form fieldset select {
+  width: 60rem;
+}
+
+#signup-page main section.create-user form a {
+  font: 500 1.4rem Montserrat;
+  line-height: 1.6rem;
+  color: var(--color-highlight);
+  text-decoration: none;
+  margin-top: 2rem;
+}
+
+#signup-page main section.create-user form a:hover,
+#signup-page main section.create-user form a:focus {
+  color: var(--color-highlight-dark);
+  outline: none;
+  text-decoration: solid underline var(--color-highlight-dark);
+}
