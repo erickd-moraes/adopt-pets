@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import Header from '../../components/Header';
 import Input from '../../components/Input';
 import ImageSignIn from '../../assets/images/background-signin.svg';
+import Button from '../../components/Button';
 
 import './styles.css';
 
@@ -21,6 +22,7 @@ const SignIn = () => {
             <h1>Possui cadastro?</h1>
             <p>Insira suas credenciais</p>
           </div>
+
           <form>
             <fieldset>
               <Input
@@ -31,6 +33,7 @@ const SignIn = () => {
                 onChange={(event) => setEmail(event.target.value)}
               />
             </fieldset>
+
             <fieldset>
               <Input
                 type="password"
@@ -40,8 +43,10 @@ const SignIn = () => {
                 onChange={(event) => setPassword(event.target.value)}
               />
             </fieldset>
-            <button type="submit">Entrar</button>
+
+            <Button type="submit" name="Entrar" />
           </form>
+
           <Link to="/forgotten-password">Esqueceu sua senha?</Link>
           <Link to="/sign-up" className="highlight">Ainda não é cadastrado?</Link>
         </div>

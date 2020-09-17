@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import Header from '../../components/Header';
 import Input from '../../components/Input';
 import SelectUfCity from '../../components/SelectUfCity';
+import Button from '../../components/Button';
 
 import './styles.css';
 
@@ -75,7 +76,7 @@ const SignUp = () => {
               />
             </fieldset>
 
-            <button type="submit">Cadastrar</button>
+            <Button type="submit" name="Cadastrar"/>
 
             <a href="/sign-in">Já possui cadastro? Faça o login</a>
           </form>

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 import Select from '../../components/Select';
 import SelectUfCity from '../SelectUfCity';
+import Button from '../Button';
 
 import './styles.css';
 import './responsive.css';
@@ -52,7 +53,7 @@ const FormFinderPets = () => {
         <SelectUfCity />
       </div>
 
-      <button type="submit">Procurar</button>
+      <Button type="submit" name="Procurar" />
     </form>
 
   );

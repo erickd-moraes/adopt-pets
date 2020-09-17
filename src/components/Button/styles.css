@@ -1,0 +1,19 @@
+button {
+  width: 24rem;
+  height: 6rem;
+  border-radius: 0.8rem;
+  border: none;
+  margin-top: 4.5rem;
+  font: 600 2.8rem Montserrat;
+  color: var(--color-title-white);
+  background-color: var(--color-highlight);
+  cursor: pointer;
+  outline: none;
+  transition: 300ms;
+}
+
+button:hover,
+button:focus {
+  background-color: var(--color-highlight-dark);
+  transition: 300ms;
+}
